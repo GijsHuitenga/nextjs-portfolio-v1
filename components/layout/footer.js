@@ -9,7 +9,7 @@ export default function Footer() {
       <div>
         <Socials />
         <div className={classes.info}>
-          Deze website is gemaakt met NextJS <span>13.1.2</span>
+          Deze website is gemaakt met NextJS 13.1.2
         </div>
       </div>
     </footer>

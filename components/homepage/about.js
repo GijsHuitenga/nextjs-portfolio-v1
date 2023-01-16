@@ -34,9 +34,9 @@ export default function About() {
         />
         <Image 
           src={hslLogo}
-          alt='Mediacollege Amsterdam logo'
-          width={266.46}
-          height={200}
+          alt='Hogeschool Leiden logo'
+          width={200}
+          height={150}
           placeholder='blur'
         />
       </div>
