@@ -1,0 +1,75 @@
+
+.contact {
+  margin-top: 7.5rem;
+}
+
+.contact h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.contact form {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.control {
+  display: flex;
+  flex-direction: column;
+}
+
+.control:first-of-type {
+  margin-bottom: 3rem;
+}
+
+.control label {
+  font-size: 1.35rem;
+  text-align: center;
+  margin-bottom: .75rem;
+}
+
+.control input {
+  border: 2px solid var(--color-light-gray);
+  border-radius: 5px;
+  padding: .5rem .75rem;
+}
+
+.control textarea {
+  border: 2px solid var(--color-light-gray);
+  border-radius: 5px;
+  padding: .5rem .75rem;
+  resize: none;
+}
+
+.submit {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.submit input {
+  font-size: 1.5rem;
+  font-weight: 600;
+  background-color: var(--color-white);
+  border: none;
+  border-radius: 5px;
+  padding: .5rem 1rem;
+  transition: .125s ease-in-out;
+}
+
+.submit input:hover,
+.submit input:focus {
+  background-color: var(--color-light-gray);
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 800px) {
+  .contact form {
+    width: 75%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .contact form {
+    width: 50%;
+  }
+}

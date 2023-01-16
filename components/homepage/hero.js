@@ -7,7 +7,7 @@ import profilePic from '@/public/images/me.jpg';
 
 export default function Hero() {
   return (
-    <div className={classes.hero}>
+    <section className={classes.hero}>
       <div className={classes.image}>
         <Image
           src={profilePic} 
@@ -17,13 +17,13 @@ export default function Hero() {
           placeholder='blur'
         />
       </div>
-      <div>
+      <div className={classes.content}>
         <h1>Gijs Huitenga</h1>
         <p>
           Front-end developer en Informatica <br />
           student aan de Hogeschool Leiden.
         </p>
       </div>
-    </div>
+    </section>
   );
 }

@@ -1,0 +1,11 @@
+
+.skills {
+  margin-top: 7.5rem;
+}
+
+.skills hr {
+  height: 1px;
+  background-color: var(--color-light-gray);
+  border: none;
+  margin: 5rem 2rem;
+}

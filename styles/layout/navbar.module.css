@@ -8,6 +8,7 @@
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 99;
 }
 
 .header div {
@@ -37,5 +38,5 @@
 
 .header nav ul li a:hover,
 .header nav ul li a:focus {
-  background-color: var(--color-black-5);
+  background-color: var(--color-light-gray);
 }
