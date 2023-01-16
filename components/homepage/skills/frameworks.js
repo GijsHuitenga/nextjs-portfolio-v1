@@ -9,7 +9,7 @@ import reactjsLogo from '@/public/images/skills/reactjs.png';
 export default function Frameworks() {
   return (
     <div className={classes.frameworks}>
-      <h1>&lt;Skills type="Frameworks" /&gt;</h1>
+      <h1>&lt;Skills type=&quot;Frameworks&quot; /&gt;</h1>
       <section>
         <div className={classes.item}>
           <div className={classes.image}>

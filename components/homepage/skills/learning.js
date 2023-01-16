@@ -9,7 +9,7 @@ import remixLogo from '@/public/images/skills/remix.png';
 export default function Learning() {
   return (
     <div className={classes.learning}>
-      <h1>&lt;Skills type="Geïnteresseerd" / &gt;</h1>
+      <h1>&lt;Skills type=&quot;Geïnteresseerd&quot; / &gt;</h1>
       <section>
         <div className={classes.item}>
           <div className={classes.image}>

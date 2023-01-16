@@ -10,7 +10,7 @@ import cssLogo from '@/public/images/skills/css3.png';
 export default function Languages() {
   return (
     <div className={classes.languages}>
-      <h1>&lt;Skills type="Programmeertalen" / &gt;</h1>
+      <h1>&lt;Skills type=&quot;Programmeertalen&quot; / &gt;</h1>
       <section>
         <div className={classes.item}>
           <div className={classes.image}>
