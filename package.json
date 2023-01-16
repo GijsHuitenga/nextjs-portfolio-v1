@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "next build && next export && node ./scripts/deploy.mjs"
   },
   "dependencies": {
     "@next/font": "13.1.2",
@@ -16,5 +17,9 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.7.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "ftp-deploy": "^2.4.3"
   }
 }

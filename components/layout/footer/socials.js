@@ -2,7 +2,7 @@
 import classes from '@/styles/layout/footer/socials.module.css';
 
 import Link from 'next/link';
-import { FaLinkedin, FaGithubSquare, FaInstagramSquare } from "react-icons/fa";
+import { FaLinkedin, FaGithubSquare, FaTwitterSquare } from "react-icons/fa";
 
 export default function Socials() {
   return (
@@ -18,9 +18,9 @@ export default function Socials() {
           <FaGithubSquare /> <span>Github</span>
           </Link>
         </li>
-        <li className={classes.instagram}>
-          <Link target='_blank' href='https://www.instagram.com/gijs.huitenga/'>
-          <FaInstagramSquare /> <span>Instagram</span>
+        <li className={classes.twitter}>
+          <Link target='_blank' href='https://twitter.com/GHuitenga'>
+          <FaTwitterSquare /> <span>Twitter</span>
           </Link>
         </li>
       </ul>
