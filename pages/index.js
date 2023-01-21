@@ -1,6 +1,4 @@
 
-import classes from '@/styles/homepage/homepage.module.css';
-
 import { Fragment } from 'react';
 
 import Container from '@/components/layout/container';
@@ -8,7 +6,7 @@ import Hero from '@/components/homepage/hero';
 import About from '@/components/homepage/about';
 import Projects from '@/components/homepage/projects';
 import Skills from '@/components/homepage/skills';
-import Contact from '@/components/homepage/contact';
+// import Contact from '@/components/homepage/contact';
 
 export default function HomePage() {
   return (
@@ -18,7 +16,7 @@ export default function HomePage() {
         <About />
         <Projects />
         <Skills />
-        <Contact />
+        {/* <Contact /> */}
       </Container>
     </Fragment>
   );
