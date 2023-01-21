@@ -6,8 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "deploy": "next build && next export && node ./scripts/deploy.mjs"
+    "lint": "next lint"
   },
   "dependencies": {
     "@next/font": "13.1.2",
