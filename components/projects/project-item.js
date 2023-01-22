@@ -21,8 +21,11 @@ export default function ProjectItem(props) {
         <Image 
           src={'/' + image} 
           alt={title}
-          width={600}
-          height={297}
+          fill
+          sizes='(min-width: 1250px) 600px,
+          1000px'
+          // width={600}
+          // height={297}
         />
       </div>
       <div className={classes.content}>
