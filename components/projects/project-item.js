@@ -6,14 +6,14 @@ import Link from "next/link";
 
 export default function ProjectItem(props) {
 
-  const { id, title, description, date, image } = props;
+  const { title, slug, description, date, image } = props;
 
   const humanReadableDate = new Date(date).toLocaleDateString('nl', {
     month: 'long',
     year: 'numeric'
   });
 
-  const projectLink = `/project/${id}`;
+  const projectLink = `/projects/${slug}`;
 
   return (
     <li className={classes.project}>

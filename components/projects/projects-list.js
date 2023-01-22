@@ -20,14 +20,14 @@ export default function ProjectsList(props) {
       <div className={classes.list}>
         <ul>
           {items
-            .map((event) => 
+            .map((project) => 
               <ProjectItem 
-                key={event.id}
-                id={event.id}
-                title={event.title} 
-                description={event.description}
-                date={event.date}
-                image={event.image}
+                key={project.id}
+                title={project.title} 
+                slug={project.slug}
+                description={project.description}
+                date={project.date}
+                image={project.image}
               />
             )
           }
